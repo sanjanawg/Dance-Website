@@ -1,0 +1,37 @@
+.container {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h2 {
+    font-weight: bold;
+  }
+  
+  .buttons button {
+    margin: 5px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .buttons button:hover {
+    transform: translateY(-5px);
+    background-color: goldenrod;
+    color: white;
+  }
+  
+  .card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px goldenrod(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+  }
+  

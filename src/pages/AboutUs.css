@@ -1,0 +1,65 @@
+.container {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h1, h2 {
+    font-weight: bold;
+  }
+  
+  .studio-intro p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .carousel img {
+    max-height: 500px;
+    object-fit: cover;
+  }
+  
+  .instructor-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f9f9f9;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .instructor-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .animate__animated {
+    --animate-duration: 1s;
+  }
+  
+  .animate__fadeInLeft {
+    animation-name: fadeInLeft;
+  }
+  
+  .animate__fadeInRight {
+    animation-name: fadeInRight;
+  }
+  
+  @keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
